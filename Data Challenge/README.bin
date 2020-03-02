@@ -1,0 +1,45 @@
+challenge.py README
+
+
+Requirements:
+
+- Python version, at least 3.0 (test were lead on Python 3.8)
+
+- Packages installed (launch the pip3 command below to install them):
+	- os
+	pip3 install os
+	- time
+	pip3 install time
+	- argparse
+	pip3 install argparse
+	- textwrap
+	pip3 install textwrap
+	- numpy
+	pip3 install numpy
+	- pandas
+	pip3 install pandas
+	- collections
+	pip3 install collection
+	- itertools
+	pip3 install itertools
+	- cvxopt
+	pip3 install cvxopt
+
+
+Algorithm parameters:
+
+- Input : Xtri.csv, Ytri.csv, Xtei.csv, k, classifier, kernel
+- Output : Ytei.csv, Yte.csv
+	for i in {1,2,3}
+
+- Xtri.csv, Ytri.csv, Xtei.csv need to be in the same input folder - Can be specified (data/ by default)
+- Ytei.csv will be generate in a folder - Can be specified (output/ by default)
+- Yte.csv is the prediction - generated on the root of the script
+- k is the length of the k-mers - Needs to be specified
+- classifier is the classifier choose - Kernel SVM (default) or Multinomial Naive Bayes
+- kernel is the kernel used for SVM - Spectrum (default)
+
+Example:
+$ python3 challenge.py -k 7 -clf mnb
+
+$ python3 challenge.py -k 4 -clf svm -kernel spectrum
