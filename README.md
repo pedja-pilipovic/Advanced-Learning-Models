@@ -1,4 +1,4 @@
-# ALM
+# Advanced Learning Models
 
 [Course](https://lear.inrialpes.fr/people/mairal/teaching/2019-2020/MSIAM) on Advanced Learning Models from the Master of Science in Industrial and Applied Mathematics. Grade was distributed among two theoretical homeworks and one data challenge [project](https://www.kaggle.com/c/advanced-learning-models-2019/overview) on Kaggle. 
 
